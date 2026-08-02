@@ -1,7 +1,26 @@
 aid: tsumobi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tsumobi.png
 name: Tsumobi
-description: Tsumobi is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tsumobi was a Y Combinator (Winter 2007) mobile messaging startup founded in
+  Boston by Joshua Wilson and Adam Bouhenguel, and later backed by Andreessen Horowitz
+  (a16z). It built a programming language that sat on top of J2ME so feature-phone
+  applications could be downloaded and updated on the fly via URLs, aiming to fix the
+  painful install and upgrade cycle of late-2000s mobile apps. The company is inactive
+  (YC lists it as Inactive; reporting describes the startup as shut down after raising
+  roughly $2M), the tsumobi.com domain no longer serves a website, and no public API,
+  developer portal, SDKs, or specifications were found. This profile is retained as a
+  historical a16z portfolio record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/tsumobi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,41 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Messaging
+- Mobile
+- J2ME
+- Feature Phones
+- Y Combinator
+- Defunct
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tsumobi-domain-security.yml
+- name: Website (historical, no longer serving)
+  type: Website
+  url: http://tsumobi.com
+- name: Y Combinator Profile
+  type: Profile
+  url: https://www.ycombinator.com/companies/tsumobi
+- name: GitHub Organization
+  type: GitHubOrganization
+  url: https://github.com/tsumobi
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/tsumobi-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

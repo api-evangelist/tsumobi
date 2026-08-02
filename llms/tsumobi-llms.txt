@@ -1,0 +1,21 @@
+# Tsumobi
+
+> Tsumobi was a Y Combinator (Winter 2007) mobile messaging startup from Boston, founded by Joshua Wilson and Adam Bouhenguel and later backed by Andreessen Horowitz (a16z). It built a language on top of J2ME that let feature-phone applications be downloaded and updated on the fly via URLs. The company is inactive: YC lists it as Inactive, tsumobi.com no longer serves a website (DNS still resolves; ports 80/443 closed as of 2026-07-21), and no public API, developer portal, SDKs, or specifications exist.
+
+This profile is a historical a16z portfolio record in the API Evangelist network. There is no API surface to document.
+
+## Company
+
+- [Y Combinator profile](https://www.ycombinator.com/companies/tsumobi): Batch Winter 2007, status Inactive, Boston
+- [GitHub organization](https://github.com/tsumobi): 2 public repos (commits authored team@tsumobi.com); not an API/SDK surface
+- [Historical website](http://tsumobi.com): domain registered with DNS + Google MX, but no web server responding
+
+## Catalog
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/tsumobi/refs/heads/main/apis.yml): machine-readable company profile
+
+<!--
+generated: '2026-07-21'
+method: generated
+source: apis.yml + ycombinator.com/companies/tsumobi + live DNS/port probes
+-->
